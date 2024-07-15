@@ -1,0 +1,20 @@
+{
+    "name": "repping/couchbase-games",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Repping\\CouchbaseGames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raymonepping",
+            "email": "repping@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-couchbase": "^4.0",
+        "couchbase/couchbase": "^4.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
